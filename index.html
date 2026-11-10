@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nouran</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <main>
+
+        <!-- الصفحة الرئيسية -->
+        <section id="home">
+            <small>A LITTLE SURPRISE</small>
+
+            <h1>إلى نوران 💗</h1>
+
+            <p>ي مسهل الحال</p>
+
+            <button id="open">ممكن تضغطي دا بعد اذنك يعني 🎁</button>
+
+            <small>اضغطي على الهدية وخلي الباقي علينا</small>
+        </section>
+
+
+        <!-- صفحة المفاجأة -->
+        <section id="surprise" class="hide">
+
+            <div class="gift" id="gift">
+                <div class="lid"></div>
+                <div class="box">♡</div>
+            </div>
+
+            <h2>مفاجأة صغيرة</h2>
+
+            <article>
+                <p id="message"></p>
+                ♡
+            </article>
+
+            <button id="galleryBtn">
+                اضغطي هنا ي نيله
+            </button>
+
+        </section>
+
+
+        <!-- صفحة الصور -->
+        <section id="gallery" class="hide">
+
+            <small>LITTLE MOMENTS</small>
+
+            <h2>ذكريات وصور جميلة</h2>
+
+            <p>شوية ذكريات حلوة 💗</p>
+
+            <div class="photos">
+                <img src="photo1.jpg" alt="صورة نوران">
+                <img src="photo2.jpg" alt="صورة نوران">
+                <img src="photo3.jpg" alt="صورة نوران">
+            </div>
+
+            <p>أتمنى أيامك الجاية تكون ألطف وأجمل 🌷</p>
+
+            <button id="backHome">
+                نرجع تاني من الاول اصل احنا فاضيين↶
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- تكبير الصور -->
+    <div id="viewer" class="hide">
+
+        <button id="close">×</button>
+
+        <img id="large" alt="الصورة المختارة">
+
+    </div>
+
+
+    <!-- الموسيقى -->
+    <audio id="music" src="music.mp3" loop></audio>
+
+    <button id="sound">♫</button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
